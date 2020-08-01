@@ -9,7 +9,11 @@ export default {
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
-  target: 'server',
+  target: 'static',
+  
+   router: {
+     base: '/new-task-deploy.herokuapp.com/'
+   },
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
