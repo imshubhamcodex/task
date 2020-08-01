@@ -4,16 +4,13 @@ export default {
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
-  target: 'static',
+  target: 'server',
   
-   router: {
-     base: '/new-task-deploy.herokuapp.com/'
-   },
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
